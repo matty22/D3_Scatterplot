@@ -1,5 +1,37 @@
 /* Scatterplot.css */
 
 .chartBackground {
-  background-color: #bababa;
+  background-color: #ededed;
+}
+
+svg .isDoper {
+  fill: #890000;
+}
+
+svg .isDoper:hover{
+  stroke: #ff4000;
+}
+
+svg .isNotDoper {
+  fill: #008900;
+}
+
+svg .isNotDoper:hover {
+  stroke: #89ff89;
+}
+
+.tooltipStyles {
+  position: fixed;
+  display: none;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  padding: 5px 10px;
+  opacity: 0.8;
+}
+
+.legendText{
+  font-size: 12px;
+  color: #5a5a5a;
 }
